@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("lincolnb17/docker-jenknins")
+        app = docker.build("lincolnb17/docker-jenkins")
     }
 
     stage('Push image') {
